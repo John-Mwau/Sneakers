@@ -155,6 +155,7 @@ body{
     .mainwrapper{
         display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: center;
         border-bottom: 2px solid hsl(220, 14%, 75%);
         margin: 10px 30px 0px 50px;
@@ -162,10 +163,17 @@ body{
         width: 90%;
     }
     .wrapper-1{
-        margin-right: 450px;
-        height: 50px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    .w-1 img{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .menu{
+        display: none;
     }
     .menu ul{
         list-style-type: none;
