@@ -168,7 +168,8 @@ body{
         margin-top: 20px;
     }
     .w-1 img{
-        width: 100%;
+        padding-top: 100px;
+        width: 50%;
         height: auto;
     }
     .menu{
