@@ -10,66 +10,68 @@ body{
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    border-bottom: 2px solid hsl(220, 14%, 75%);
-    margin: 10px 30px 0px 30px;
+    border-bottom: 1px solid hsl(220, 14%, 75%);
+    margin: 10px 150px 0px 150px;
 }
 .main-menu{
     display: flex;
     flex-direction: row;
+}
+.logo{
+    margin: 0px 5px 0px 5px;
+    width: 100%;
+    height: auto;
 }
 .menu ul{
     list-style-type: none;
     display: inline-flex;
 }
 .menu ul li{
-    max-width: 150px;
+    max-width:80px;
     padding: 10px;
 }
 .menu ul li a{
     text-decoration: none;
     color: hsl(219, 9%, 45%)
 }
-.wrapper-2{
-    height:50px;
+.main-menu2{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 0px 20px 0px 0px;
 }
-.w-2{
-    margin-right: 40px;
-    max-width: 200px;
+.sub-menu2{
+    margin: 0px 10px 0px 20px;
 }
-.w-3 img {
+.sub-menu2 img {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    padding-right: 40px;
+    border-radius: 20px;
 }
 .content{
     display: flex;
     flex-direction: row;
-    margin: 20px 150px 0px 50px;
-    height: 100px;
     justify-content: center;
+    margin: 20px;
 }
 .menu-2{
-    width: 400px;
-    margin-right: 30px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px 10px 20px;
 }
-.menu-3 img{
+.main-image img{
     width: 300px;
     height: 300px;
-    border-radius: 9%;
+    border-radius: 10px;
 }
-.submenu{
+.sub-images{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 5px;
-    width: 300px;
-    justify-content: space-around;
 }
-.submenu img {
+.sub-images img {
     border-radius: 8%;
     margin: 8px;
     width: 60px;
@@ -81,8 +83,13 @@ body{
     align-items: start;
 }
 .banner{
-    padding-top: 30px;
-    width: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 30px;
 }
 .banner-h2{
     font-size: 22px;
@@ -132,4 +139,57 @@ body{
 .cat p{
     padding: 5px 10px 5px 10px;
     text-align: center;
+}
+@media screen and (max-width:600px){
+    *{
+        margin: 0px;
+        padding:0px;
+    }
+    body{
+        background-color: hsl(25, 100%, 94%);
+    }
+    .mainwrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
+        border-bottom: 1px solid hsl(220, 14%, 75%);
+        margin: 10px 150px 0px 150px;
+    }
+    .main-menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        margin: 0px 5px 0px 5px;
+        width: 100%;
+        height: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .menu ul{
+        list-style-type: none;
+        display: inline-flex;
+    }
+    .menu ul li{
+        max-width:80px;
+        padding: 10px;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: hsl(219, 9%, 45%)
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .sub-images{
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5px;
+    }
 }
