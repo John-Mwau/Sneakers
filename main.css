@@ -157,9 +157,11 @@ body{
     .main-menu{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;
     }
     .logo{
-        margin: 0px 5px 0px 5px;
+        margin: 0px 20px 0px 5px;
         width: 100%;
         height: auto;
     }
@@ -182,7 +184,10 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: 0px 20px 0px 0px;
+        margin: 0px 20px 0px 80px;
+    }
+    .sub-menu1{
+        max-width: 120px;
     }
     .sub-menu2{
         margin: 0px 10px 0px 20px;
