@@ -175,6 +175,9 @@ body{
         display: flex;
         flex-direction: row;
     }
+    .menu nav{
+        display: none;
+    }
     .menu nav ul{
         display: none;
         list-style: none;
