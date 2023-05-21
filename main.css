@@ -33,6 +33,9 @@ body{
     display: none;
     font-size: 25px;
 }
+.menu{
+    margin: 5px;
+}
 .menu nav ul{
     list-style: none;
     display:inline-flex;
@@ -179,7 +182,7 @@ body{
         justify-content: center;
         justify-content: space-between;
         width: 100%;
-        margin: 5px;
+        margin: 5px 10px 0px 10px;
         border-bottom: none;
         border-color: none;
     }
@@ -197,6 +200,9 @@ body{
     .checkbtn{
         display: inline-block;
         font-size: 25px;
+    }
+    .menu{
+        margin: 0px 0px 10px 0px;
     }
     .menu nav ul{
         display: none;
