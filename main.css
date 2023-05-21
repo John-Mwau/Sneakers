@@ -177,7 +177,6 @@ body{
     }
     .menu nav ul{
         display: none;
-        display: block;
         list-style: none;
     }
     .content{
