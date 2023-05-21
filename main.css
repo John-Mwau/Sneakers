@@ -30,11 +30,8 @@ body{
     display: none;
 }
 .checkbtn{
-    color: white;
     display: none;
-}
-.checkbtn i{
-    float: right;
+    font-size: 25px;
 }
 .menu nav ul{
     list-style: none;
@@ -42,7 +39,7 @@ body{
 }
 .menu nav ul li{
     max-width:200px;
-    padding: 4px 10px 2px 5px;
+    padding: 3px 10px 2px 5px;
 }
 .menu nav ul li a{
     text-decoration: none;
@@ -181,7 +178,7 @@ body{
     }
     .main-menu{
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
     .menu nav{
         display: inline-block;
@@ -191,12 +188,17 @@ body{
         display: none;
     }
     .checkbtn{
-        color: white;
         display: inline-block;
+        font-size: 25px;
     }
     .menu nav ul{
         display: none;
         list-style: none;
+    }
+    .menu nav ul li{
+        max-width:200px;
+        padding: 3px 10px 2px 5px;
+        display: block;
     }
     .content{
         display: flex;
@@ -220,4 +222,7 @@ body{
         flex-direction: row;
         justify-content: space-around;
     }
+}
+@media screen and (min-width:){
+    
 }
