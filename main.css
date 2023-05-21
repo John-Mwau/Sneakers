@@ -148,7 +148,7 @@ body{
     background-color: hsl(220, 14%, 75%);
 }
 .cat{
-    width: 150px;
+    width: 200px;
     height: 35px;
     border-radius: 10px;
     background-color: hsl(26, 100%, 55%);
@@ -161,8 +161,11 @@ body{
     padding: 7px 10px 5px 20px;
     text-align: center; 
 }
+.cat2{
+    margin-left: -40px;
+}
 .cat p{
-    padding: 5px 10px 5px 5px;
+    padding: 5px;
     text-align: center;
 }
 @media screen and (max-width:600px){
@@ -175,6 +178,7 @@ body{
         flex-direction: row;
         justify-content: center;
         justify-content: space-between;
+        margin-left: -100px;
     }
     .main-menu{
         display: flex;
@@ -213,7 +217,7 @@ body{
         margin-top: 5px;
     }
     .cat{
-        max-width: 200px;
+        width: 200px;
         height: 35px;
         border-radius: 10px;
         background-color: hsl(26, 100%, 55%);
@@ -223,6 +227,4 @@ body{
         justify-content: space-around;
     }
 }
-@media screen and (min-width:){
-    
-}
+
