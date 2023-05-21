@@ -24,10 +24,21 @@ body{
 }
 .menu nav{
     margin-left: 5px;
+    display: inline-flex;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    color: white;
+    display: none;
+}
+.checkbtn i{
+    float: right;
 }
 .menu nav ul{
-    display: inline-flex;
     list-style: none;
+    display:inline-flex;
 }
 .menu nav ul li{
     max-width:200px;
@@ -121,7 +132,6 @@ body{
     border-radius: 5px;
     background-color: bisque;
 }
-
 .banner-p1{
     color:hsl(26, 100%, 55%);
 }
@@ -174,7 +184,15 @@ body{
         flex-direction: row;
     }
     .menu nav{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    #check{
         display: none;
+    }
+    .checkbtn{
+        color: white;
+        display: inline-block;
     }
     .menu nav ul{
         display: none;
@@ -191,5 +209,15 @@ body{
         flex-direction: row;
         justify-content: center;
         margin-top: 5px;
+    }
+    .cat{
+        max-width: 200px;
+        height: 35px;
+        border-radius: 10px;
+        background-color: hsl(26, 100%, 55%);
+        margin-left: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
