@@ -93,22 +93,27 @@ body{
     justify-content: center;
     margin-top: 5px;
 }
-.icon{
-    margin-top: 15px;
-    display: none;
-    align-items: center;
-}
-.icon i{
-    font-size: 18px;
-    background-color: azure;
-    border-radius: 50%;
-    padding: 5px;
-}
 .sub-images img {
     border-radius: 8%;
     margin: 8px;
     width: 60px;
     height: 60px;
+}
+.sub-images img{
+    display: flex;
+}
+.icon{
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.icon i{
+    font-size:20px;
+    padding: 5px;
 }
 .main-banner{
     display: flex;
@@ -234,11 +239,6 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: -150px;
-    }
-    .icon{
-        margin-top: 15px ;
-        display: inline-block;
     }
     .images img{
         display: none;
@@ -253,11 +253,14 @@ body{
         flex-direction: row;
         justify-content: space-around;
     }
-    .icon i{
-        font-size: 18px;
-        background-color: azure;
-        border-radius: 50%;
-        padding: 10px;
+    .icon{
+        display: inline-block;
+        background-color: white;
+        border-radius: 15px;
+        height: 30px;
+        width: 30px;
+        margin-top: 20px;
+        text-align: center;
     }
     .main-banner{
         display: flex;
