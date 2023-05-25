@@ -95,7 +95,7 @@ body{
 }
 .icon{
     margin-top: 15px;
-    display: block;
+    display: none;
     align-items: center;
 }
 .icon i{
@@ -234,7 +234,15 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: -30px;
+        margin-top: -150px;
+    }
+    .icon{
+        margin-top: 15px;
+        display: inline-block;
+        align-items: center;
+    }
+    .images img{
+        display: none;
     }
     .cat{
         width: 200px;
@@ -252,5 +260,12 @@ body{
         border-radius: 50%;
         padding: 10px;
     }
+    .main-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: -20px;
+    }
+
 }
 
