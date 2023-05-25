@@ -93,17 +93,16 @@ body{
     justify-content: center;
     margin-top: 5px;
 }
+.icon{
+    margin-top: 15px;
+    display: block;
+    align-items: center;
+}
 .icon i{
     font-size: 18px;
     background-color: azure;
     border-radius: 50%;
-    padding: 10px;
-}
-.icon{
-    position: relative;
-    top: 20px;
-    display: none;
-
+    padding: 5px;
 }
 .sub-images img {
     border-radius: 8%;
@@ -235,7 +234,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 5px;
+        margin-top: -30px;
     }
     .cat{
         width: 200px;
@@ -252,12 +251,6 @@ body{
         background-color: azure;
         border-radius: 50%;
         padding: 10px;
-    }
-    .icon{
-        position: relative;
-        top: 20px;
-        display: inline-flex;
-    
     }
 }
 
