@@ -239,7 +239,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: -150px;
+        margin-top: -250px;
     }
     .images img{
         display: none;
@@ -267,6 +267,9 @@ body{
         display: flex;
         flex-direction: column;
         align-items: start;
+        position: relative;
+        margin-top: 290px;
+        padding-left: 20px;
     }
 
 }
