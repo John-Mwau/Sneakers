@@ -247,5 +247,17 @@ body{
         flex-direction: row;
         justify-content: space-around;
     }
+    .icon i{
+        font-size: 18px;
+        background-color: azure;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    .icon{
+        position: relative;
+        top: 20px;
+        display: inline-flex;
+    
+    }
 }
 
