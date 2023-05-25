@@ -225,9 +225,6 @@ body{
         padding: 3px 10px 2px 5px;
         display: block;
     }
-    .icon{
-        display: flex;
-    }
     .content{
         display: flex;
         flex-direction: column;
@@ -235,12 +232,15 @@ body{
         margin: 20px;
     }
     .sub-images{
-        display: none;
+        display: flex;
         flex-direction: row;
         justify-content: center;
         margin-top: 5px;
         position: relative;
-        top: -20px;
+        top: -40px;
+    }
+    .images{
+        display: none;
     }
     .cat{
         width: 200px;
