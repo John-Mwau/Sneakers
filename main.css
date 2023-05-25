@@ -82,10 +82,26 @@ body{
     align-items: center;
     margin: 10px 20px 10px 20px;
 }
+.main-image{
+    display: flex;
+}
 .main-image img{
     width: 300px;
     height: 300px;
     border-radius: 10px;
+}
+.icon{
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.icon i{
+    font-size:20px;
+    padding: 5px;
 }
 .sub-images{
     display: flex;
@@ -101,19 +117,6 @@ body{
 }
 .sub-images img{
     display: flex;
-}
-.icon{
-    display: none;
-    background-color: white;
-    border-radius: 15px;
-    height: 30px;
-    width: 30px;
-    margin-top: 20px;
-    text-align: center;
-}
-.icon i{
-    font-size:20px;
-    padding: 5px;
 }
 .main-banner{
     display: flex;
@@ -236,12 +239,9 @@ body{
         margin: 20px;
     }
     .sub-images{
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: center;
-        margin-top: -250px;
-    }
-    .images img{
         display: none;
     }
     .cat{
@@ -254,23 +254,19 @@ body{
         flex-direction: row;
         justify-content: space-around;
     }
-    .icon{
-        display: inline-block;
-        background-color: white;
-        border-radius: 15px;
-        height: 30px;
-        width: 30px;
-        margin-top: 20px;
-        text-align: center;
-    }
     .main-banner{
         display: flex;
         flex-direction: column;
         align-items: start;
-        position: relative;
-        margin-top: 290px;
-        padding-left: 20px;
     }
-
+    .icon{
+        display: inline-flex;
+        background-color: white;
+        border-radius: 15px;
+        height: 30px;
+        width: 30px;
+        margin-top: 50px;
+        text-align: center;
+    }
 }
 
